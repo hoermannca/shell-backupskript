@@ -1,4 +1,3 @@
-# shell-backupskript
 #!/bin/bash
 
 # Backup: Erstellen und Zurückspielen von Verzeichnissen
@@ -155,4 +154,3 @@ do
 done
 
 exit 0
-
