@@ -106,13 +106,13 @@ function listbackup(){
 }
 
 function deletebackup(){
-	echo "DELETEBACKUP"
+	
 	YESNO=0
     until [ $YESNO = 1 ]
     do
         where
-        echo "| Sind Sie sich sicher,dass das Backup bei $WHERE    |"
-        echo "| gesucht werden soll ?                                 |"
+        echo "| Sind Sie sich sicher,dass sie hier $WHERE   |"
+        echo "| nach dem Backup suchen wollen?              |"
         read -p "| (0: nein |  1: ja) " YESNO
     done
 
