@@ -121,7 +121,7 @@ function deletebackup(){
     do
         typ
         echo "| Sind Sie sich sicher,dass das Backup den Datentyp $TYP   |"
-        echo "| hat  ?                                 |"
+        echo "| hat  ?                                                   |"
         read -p "| (0: nein |  1: ja) " YESNO
     done
 
